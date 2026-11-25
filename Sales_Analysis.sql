@@ -53,4 +53,6 @@ SELECT
     END AS YEARLY_PROGRESS
 
 FROM sales_analysis
-ORDER BY product_name, years;
+ORDER BY
+    product_name,
+    years;
